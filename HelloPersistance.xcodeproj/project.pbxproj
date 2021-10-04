@@ -12,6 +12,7 @@
 		622EF41220F00683000E4C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622EF41020F00683000E4C49 /* Main.storyboard */; };
 		622EF41420F00685000E4C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622EF41320F00685000E4C49 /* Assets.xcassets */; };
 		622EF41720F00685000E4C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622EF41520F00685000E4C49 /* LaunchScreen.storyboard */; };
+		622EF41F20F0122D000E4C49 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EF41E20F0122D000E4C49 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		622EF41320F00685000E4C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		622EF41620F00685000E4C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		622EF41820F00685000E4C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622EF41E20F0122D000E4C49 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				622EF40C20F00683000E4C49 /* AppDelegate.swift */,
 				622EF40E20F00683000E4C49 /* ViewController.swift */,
+				622EF41E20F0122D000E4C49 /* Movie.swift */,
 				622EF41020F00683000E4C49 /* Main.storyboard */,
 				622EF41320F00685000E4C49 /* Assets.xcassets */,
 				622EF41520F00685000E4C49 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622EF41F20F0122D000E4C49 /* Movie.swift in Sources */,
 				622EF40F20F00683000E4C49 /* ViewController.swift in Sources */,
 				622EF40D20F00683000E4C49 /* AppDelegate.swift in Sources */,
 			);
